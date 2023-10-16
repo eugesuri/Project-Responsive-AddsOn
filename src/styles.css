@@ -15,6 +15,40 @@ h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
 }
+
+h3 {
+  font-size: 30px;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
 footer {
   text-align: center;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../images/buenosaires.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: white;
 }
