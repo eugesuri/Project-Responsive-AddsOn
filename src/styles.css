@@ -50,6 +50,10 @@ header {
 
 .link {
   color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: pink;
 }
 header a {
   font-weight: 700;
