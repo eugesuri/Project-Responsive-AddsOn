@@ -4,4 +4,9 @@ h1 {
   font-family: "Playfair Display", serif;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  font-size: 80px;
+}
+
+footer {
+  text-align: center;
 }
