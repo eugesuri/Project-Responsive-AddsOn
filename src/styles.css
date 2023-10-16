@@ -11,29 +11,17 @@ body {
 }
 
 h1 {
-  font-family: "Lora", serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 80px;
 }
 
 h2 {
   font-size: 60px;
-  font-family: "Lora", serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-family: "Poppins", sans-serif;
+
   text-align: center;
 }
 
 h3 {
-  font-size: 30px;
-  font-family: "Lora", serif;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Playfair Display", serif;
-  font-family: "Poppins", sans-serif;
   text-align: center;
 }
 footer {
