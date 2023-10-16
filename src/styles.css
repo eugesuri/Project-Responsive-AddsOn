@@ -28,6 +28,7 @@ main {
 }
 .img-responsive {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 main h2 {
@@ -161,7 +162,7 @@ header a {
   border-radius: 10px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
@@ -177,8 +178,13 @@ header a {
   header h3 {
     font-size: 12px;
   }
-}
-.grid {
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 35px;
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
 }
