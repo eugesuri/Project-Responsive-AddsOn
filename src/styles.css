@@ -115,14 +115,15 @@ main p {
 section {
   margin: 0 auto;
   padding: 100px;
-  color: grey;
+  color: white;
   font-family: "Poppins", sans-serif;
   font-family: "Lora", serif;
   font-family: "Montserrat", sans-serif;
   font-family: "Playfair Display", serif;
-  opacity: 0.7;
 }
-
+.text-center {
+  color: grey;
+}
 section.secondary {
   background: #d5f1e8;
 }
