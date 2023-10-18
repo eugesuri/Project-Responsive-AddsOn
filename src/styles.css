@@ -20,6 +20,52 @@ body {
 .grid-2-columns {
   grid-template-columns: 1fr 1fr;
 }
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+
+.card h4 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+.card p {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-size: 15px;
+  text-align: center;
+}
+.card h5 {
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+.btn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: darkgreen;
+  background-color: pink;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-family: "Lora", serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+}
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -67,6 +113,22 @@ section {
 section.secondary {
   background: #d5f1e8;
 }
+header a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: #272044;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+
+  text-transform: uppercase;
+  background: white;
+}
+
 header h1 {
   font-weight: 700;
   font-size: 96px;
@@ -143,20 +205,6 @@ header {
 }
 .link:hover {
   color: pink;
-}
-header a {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.5;
-  text-align: center;
-  color: #272044;
-  padding: 16px 32px;
-  margin-top: 32px;
-  display: inline-block;
-  letter-spacing: 3px;
-  text-decoration: none;
-  text-transform: uppercase;
-  background: white;
 }
 
 .image {
